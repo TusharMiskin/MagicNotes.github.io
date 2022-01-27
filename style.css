@@ -1,0 +1,106 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: url('./img/2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    header {
+        height: 48px;
+        background-color: green;
+    }
+    
+    h1 {
+        position: relative;
+        top: 1PX;
+        left: 120PX;
+        font-size: 40PX;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav li {
+        list-style-type: none;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        position: relative;
+        top: 48px;
+        right: 140px;
+    }
+    
+    .box {
+        height: 840px;
+        width: 900px;
+        background-color: rgb(236, 236, 14);
+        box-shadow: 12px 7px black;
+        border-radius: 10px;
+    }
+    
+    #search {
+        position: absolute;
+        left: 64%;
+        height: 46px;
+        width: 480px;
+    }
+    
+    #btn {
+        position: absolute;
+        left: 1710px;
+        height: 46px;
+        width: 110px;
+        background-color: white;
+        color: green;
+    }
+    
+    .box h1 {
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box1 h2 {
+        font-size: 32px;
+    }
+    
+    button {
+        height: 50px;
+        width: 100px;
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+    }
+    
+    textarea {
+        width: 790px;
+        height: 190px;
+    }
+    
+    #notes {
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+    
+    #bu {
+        height: 40px;
+        width: 70px;
+        background-color: green;
+        color: white;
+    }

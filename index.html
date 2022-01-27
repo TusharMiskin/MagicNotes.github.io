@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li>
+                <h1>Magic Notes</h1>
+            </li>
+            <li>
+                <div class="input-group">
+                    <div class="form-outline">
+                        <input type="search" id="search" class="form-control" placeholder="search your notes" />
+
+                    </div>
+                    <button type="button" id="btn" class="btn btn-primary">search
+                      <i class="fas fa-search" id="ffs"></i>
+                    </button>
+                </div>
+            </li>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h1>WellCome to Magic Notes</h1>
+            <hr>
+            <div class="box1">
+                <div class="card-note">
+                    <div class="card-body">
+                        <h2 class="card-title">Add a Note</h2>
+                        <div class="form-floating">
+                            <textarea class="form-control" id="addTxt" rows="3"></textarea>
+
+                        </div>
+                        <button class="btn btn-primary" id="addBtn">Add Note</button>
+                    </div>
+                </div>
+            </div>
+
+            <h1>Your Notes</h1>
+            <hr>
+            <div id="notes" class="row container-fluid">
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="notes.js"></script>
+</body>
+
+</html>
